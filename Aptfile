@@ -1,10 +1,13 @@
 build-essential
 unzip
 software-properties-common
-:repo:deb http://ppa.launchpad.net/mc3man/xerus-media/ubuntu xenial main 
-git
-ffmpeg
-libopus-dev
-libffi-dev
+:repo:deb http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu trusty main
+:repo:deb http://ppa.launchpad.net/mc3man/trusty-media/ubuntu trusty main
+:repo:deb http://ppa.launchpad.net/chris-lea/libsodium/ubuntu trusty main 
+git 
+python 
+python3.5-dev 
+libav-tools 
+libopus-dev 
+libffi-dev 
 libsodium-dev
-python3-pip
